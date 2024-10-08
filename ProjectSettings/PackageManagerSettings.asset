@@ -31,6 +31,7 @@ MonoBehaviour:
     m_Url: https://package.openupm.com
     m_Scopes:
     - com.vikoproductions.fsm_mk2
+    - com.bonsai.behaviourtree
     m_IsDefault: 0
     m_Capabilities: 0
     m_ConfigSource: 4

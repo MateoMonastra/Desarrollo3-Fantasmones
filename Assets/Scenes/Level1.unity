@@ -8986,7 +8986,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2935691085672996378, guid: 0e114f93386c6584fb412aaf40e12cc9, type: 3}
   m_PrefabInstance: {fileID: 4608617271482847055}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2136571397
+--- !u!114 &2136571400
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8995,7 +8995,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2136571394}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f876b0f7b333e64b926f5fe9b74e987, type: 3}
+  m_Script: {fileID: 11500000, guid: b46b0c0bdf550ea41b99658f2a52678b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   eventChannelSceneManager: {fileID: 11400000, guid: db015c9f8b5b83a47ab6053ad151f0d6, type: 2}
@@ -9018,7 +9018,7 @@ PrefabInstance:
     - target: {fileID: 6237684244673480162, guid: 6af45ee71d3f1734cb0662c7b7457870, type: 3}
       propertyPath: inputReader
       value: 
-      objectReference: {fileID: 2136571397}
+      objectReference: {fileID: 2136571400}
     - target: {fileID: 6237684244673480162, guid: 6af45ee71d3f1734cb0662c7b7457870, type: 3}
       propertyPath: adController
       value: 
@@ -9422,7 +9422,7 @@ PrefabInstance:
     - target: {fileID: 5294681581282829300, guid: 7cf61e271edf3e448a53a727f25ea52e, type: 3}
       propertyPath: inputReader
       value: 
-      objectReference: {fileID: 2136571397}
+      objectReference: {fileID: 2136571400}
     - target: {fileID: 5294681581282829300, guid: 7cf61e271edf3e448a53a727f25ea52e, type: 3}
       propertyPath: decreaseCurve.m_Curve.Array.size
       value: 3
@@ -9531,7 +9531,7 @@ PrefabInstance:
     - target: {fileID: 9097102196205262616, guid: 83bf09b6787b3b44aba971eddd2cfe79, type: 3}
       propertyPath: inputReader
       value: 
-      objectReference: {fileID: 2136571397}
+      objectReference: {fileID: 2136571400}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9590,29 +9590,33 @@ PrefabInstance:
       value: InputReader
       objectReference: {fileID: 0}
     - target: {fileID: 5570601895139665493, guid: 0e114f93386c6584fb412aaf40e12cc9, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5570601895139665493, guid: 0e114f93386c6584fb412aaf40e12cc9, type: 3}
       propertyPath: m_Actions
       value: 
       objectReference: {fileID: -944628639613478452, guid: d9e3219de75c43642b9c59b19b2a59db, type: 3}
     - target: {fileID: 5570601895139665493, guid: 0e114f93386c6584fb412aaf40e12cc9, type: 3}
       propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2136571397}
+      objectReference: {fileID: 2136571400}
     - target: {fileID: 5570601895139665493, guid: 0e114f93386c6584fb412aaf40e12cc9, type: 3}
       propertyPath: m_ActionEvents.Array.data[11].m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2136571397}
+      objectReference: {fileID: 2136571400}
     - target: {fileID: 5570601895139665493, guid: 0e114f93386c6584fb412aaf40e12cc9, type: 3}
       propertyPath: m_ActionEvents.Array.data[12].m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2136571397}
+      objectReference: {fileID: 2136571400}
     - target: {fileID: 5570601895139665493, guid: 0e114f93386c6584fb412aaf40e12cc9, type: 3}
       propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2136571397}
+      objectReference: {fileID: 2136571400}
     - target: {fileID: 5570601895139665493, guid: 0e114f93386c6584fb412aaf40e12cc9, type: 3}
       propertyPath: m_ActionEvents.Array.data[14].m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2136571397}
+      objectReference: {fileID: 2136571400}
     - target: {fileID: 5570601895139665493, guid: 0e114f93386c6584fb412aaf40e12cc9, type: 3}
       propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: HandleMoveInput
@@ -9640,7 +9644,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2935691085672996378, guid: 0e114f93386c6584fb412aaf40e12cc9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2136571397}
+      addedObject: {fileID: 2136571400}
   m_SourcePrefab: {fileID: 100100000, guid: 0e114f93386c6584fb412aaf40e12cc9, type: 3}
 --- !u!1001 &4652093608145241414
 PrefabInstance:

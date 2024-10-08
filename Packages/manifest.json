@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.bonsai.behaviourtree": "1.0.0",
     "com.unity.ai.navigation": "1.1.5",
     "com.unity.cinemachine": "2.10.1",
     "com.unity.collab-proxy": "2.4.4",
@@ -38,7 +39,8 @@
       "name": "package.openupm.com",
       "url": "https://package.openupm.com",
       "scopes": [
-        "com.vikoproductions.fsm_mk2"
+        "com.vikoproductions.fsm_mk2",
+        "com.bonsai.behaviourtree"
       ]
     }
   ]
