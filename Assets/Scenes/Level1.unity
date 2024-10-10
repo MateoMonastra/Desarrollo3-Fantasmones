@@ -8995,7 +8995,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2136571394}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b46b0c0bdf550ea41b99658f2a52678b, type: 3}
+  m_Script: {fileID: 11500000, guid: 6222ca3e096618441b792c60698494ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   eventChannelSceneManager: {fileID: 11400000, guid: db015c9f8b5b83a47ab6053ad151f0d6, type: 2}

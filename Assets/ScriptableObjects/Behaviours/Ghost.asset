@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8328696049932130353
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09a07908f6a5fd44e906d041ac135bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keys:
+  - canSeePlayer
+--- !u!114 &-2706855370406972545
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a151186405f2444d96df2b0a098524c, type: 3}
+  m_Name: IsValueOfType
+  m_EditorClassIdentifier: 
+  preOrderIndex: 2
+  title: 
+  comment: 
+  bonsaiNodePosition: {x: -104.5, y: 243}
+  child: {fileID: 0}
+  abortType: 0
+  key: canSeePlayer
+  typename: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+--- !u!114 &-2547846491224844620
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b4d95aae8c1c7b478fe06adf233ef0c, type: 3}
+  m_Name: Selector
+  m_EditorClassIdentifier: 
+  preOrderIndex: 0
+  title: 
+  comment: 
+  bonsaiNodePosition: {x: -47, y: -25.5}
+  children:
+  - {fileID: 5958409290266009604}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e327cacc628d65b4faa51b0a82bf63c2, type: 3}
+  m_Name: Ghost
+  m_EditorClassIdentifier: 
+  allNodes:
+  - {fileID: -2547846491224844620}
+  - {fileID: 5958409290266009604}
+  - {fileID: -2706855370406972545}
+  blackboard: {fileID: -8328696049932130353}
+  actor: {fileID: 0}
+  panPosition: {x: -135, y: -444}
+  zoomPosition: {x: 1.2, y: 1.2}
+  unusedNodes: []
+--- !u!114 &5958409290266009604
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c296e9ede5f05c14da92067d4e3bfcac, type: 3}
+  m_Name: IsValueSet
+  m_EditorClassIdentifier: 
+  preOrderIndex: 1
+  title: 
+  comment: 
+  bonsaiNodePosition: {x: -86.5, y: 99}
+  child: {fileID: -2706855370406972545}
+  abortType: 0
+  key: canSeePlayer
